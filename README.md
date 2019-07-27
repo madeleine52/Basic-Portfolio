@@ -1,2 +1,2 @@
 # Basic-Portfolio
-A basic portfolio
+This is my basic portfolio using HTML and CSS. 

@@ -19,7 +19,8 @@ body {
    background-color: white;
    padding: 25px;
    margin-top: 25px;
-   border-color: red;
+   border: .5px solid #cccccc; 
+   overflow: hidden;
 
 }
 
@@ -28,7 +29,7 @@ h1 {
     color: #4aaaa5;
 }
 
-h2, p, link, footer, a {
+h2, p, link, footer, a, button {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
@@ -38,11 +39,14 @@ h2 {
 }
 
 .name-logo {
+    bottom: 0;
+    position: absolute;
     float: left;
     background: #4aaaa5;
     color: white;
     padding: 15px;
-    margin-left: 160px;
+    font-weight: bold;
+    
 }
 
 .page-title {
@@ -57,24 +61,39 @@ h2 {
 
 .tab-group {
     float: right;
-    margin-right: 50px;
-    margin-top:30px;
+    margin-top:20px;
 }
 
 .navbar {
     display: block;
     width: 100%;
     background-color: white;
-    height: 75px;
+    height: 60px;
+    border-bottom: .5px solid #cccccc; 
+    position: relative;
 }
 
-/* #bio-photo {
+.nav-content {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+#bio-photo {
     float: left;
-} */
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
 
 button {
     margin-top: 10px;
     background: #4aaaa5;
+    border: none;
+    padding: 10px 32px;
     color: white;
 }
 
@@ -89,25 +108,27 @@ button {
 }
 
 .caption {
-    width: 27.25%;
+    width: 100%;
     position: absolute;
-    bottom: 20px;
+    
     background: #4aaaa5;
     color: white;
     text-align: center;
+    bottom: 20px;
     padding-left: 20px;
     padding-right:20px;
 }
 
 footer {
-    position: sticky;
+    position: fixed;
     bottom: 0;
-    
     width: 100%;
     text-align: center;
     background: gray;
-    padding-top:30px;
+    padding-top:15px;
     color: white;
     border-top: 5px solid #4aaaa5;
     margin-top:20px;
+    font-weight: 100;
+    font-size:12px;
 }
