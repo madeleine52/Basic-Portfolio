@@ -1,5 +1,5 @@
 # Basic-Portfolio
-This is my basic portfolio. Come back regularly for updates!
+This is my basic portfolio. Click [here](https://madeleineprak.github.io/Basic-Portfolio/) to view it.
 
 Tools utilized:
 * HTML
