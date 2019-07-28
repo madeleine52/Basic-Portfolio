@@ -9,7 +9,7 @@ Tools ahead:
 * Javascript 
 
 # Authors
-Madeleine Prak
+[Madeleine Prak](https://github.com/madeleineprak)
 
 # Acknowledgements
 Go UW Coding Bootcamp!
